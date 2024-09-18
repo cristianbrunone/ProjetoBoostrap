@@ -1,0 +1,42 @@
+/* geral */
+html {
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h5,
+p,
+span {
+    margin: 0;
+    color: #666;
+}
+
+/* Banner */
+#main-banner {
+    background: url('../assets/images/banner.png') no-repeat;
+    background-size: cover;
+
+}
+
+#logo {
+    width: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    #locality {
+        display: none;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+}
