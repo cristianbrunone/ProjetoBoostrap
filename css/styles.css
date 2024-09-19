@@ -26,6 +26,11 @@ span {
 
 }
 
+.custom-footer {
+    background-color: rgb(6, 84, 187);
+
+}
+
 #logo {
     width: 100px;
 }
